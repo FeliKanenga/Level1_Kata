@@ -4,8 +4,9 @@ public class Isosceles {
 
 
     public static void main(String[]args) {
+        // Triangle
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of your triangle");
+        System.out.println("Enter the size of your triangle.");
         int size = sc.nextInt();
         int space = size ;
         for(int i=1; i<=size;i++){
